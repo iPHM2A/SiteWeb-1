@@ -1,11 +1,7 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> 
 <html class="no-js"> 
-<!--<![endif]-->
     <head>
+        <!-- #region : HEAD Metadata; -->
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>
@@ -15,11 +11,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Crete+Round">
+        <!-- #endregion -->
     </head>
     <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+        <!-- #region : Header; -->
+        <!-- la section qui definit le menu horizontale de la page -->
         <header>
             <div class="wrapper">
                 <h1>Travel Agency<span class="orange">.</span></h1>  
@@ -33,6 +29,9 @@
                 </nav>    
             </div>
         </header>
+        <!-- #endregion -->
+        
+        <!-- #region : MainSection; -->
         <!-- la section qui definit le contenu principale de la page -->
         <section id="main-image">
             <div class="wrapper">
@@ -40,6 +39,9 @@
                 <a href="#" class="button-1">Par ici</a>
             </div>
         </section>
+        <!-- #endregion -->
+        
+        <!-- #region : StepsSection; -->
         <!-- la section qui definit les étapes d'un voyage avec notre agence -->
         <section id="steps">
             <div class="wrapper">
@@ -56,18 +58,50 @@
                         <h4>Voyager</h4>
                         <p>Nous nous chargeons d'assurer votre sécurité et de veiller à votre pleine sérénité tout au long de votre voyage.</p>
                     </li> 
+                    <div class="clear"></div>
                 </ul>
-            </div></section>
-        <section id="possibilities">
+            </div>
+        </section>
+        <!-- #endregion -->
+        
+        <!-- #region : Possibilities; -->
+        <!--la section qui definit les possibilitées d'un voyage-->
+        <section id="possibilities"> 
             <div class="wrapper">
-
-            </div></section>
+                <article style="background-image:url(images/fun-bus.jpg);
+                background-size:700px 270px;">
+                     <div class="overlay">
+                         <h4>Partez en famille</h4>
+                         <p><small>Parfois un peu d'evasion serait le bienvenue et ferait le plus grand bien !</small></p>
+                         <a class="button-2" href="#">Plus d'infos</a>
+                     </div>
+                </article>
+                <article style="background-image:url(images/24.5\ article-image-2.jpg.jpg);">
+                     <div class="overlay">
+                         <h4>Envie de s'evader</h4>
+                         <p><small>Offrez le meilleur à ceuxque vous aimez et partagez des moments fabuleux !</small></p>
+                         <a class="button-2" href="#">Plus d'infos</a>
+                     </div>
+                </article>
+                <div class="clear"></div>
+            </div>
+        </section>
+        <!-- #endregion -->
+        
+        <!-- #region : Contact; -->
+        <!--la section qui definit le contact -->
         <section id="contact">
             <div class="wrapper">
 
-            </div></section>
-        <footer></footer>
+            </div>
+        </section>
+        <!-- #endregion -->
         
+        <!-- #region : Footer; -->
+        <!--la section qui definit le Footer -->
+        <footer>
+        </footer>
+        <!-- #endregion -->
         <script src="script.js"></script>
     </body>
 </html>
